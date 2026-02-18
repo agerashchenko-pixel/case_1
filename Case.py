@@ -13,6 +13,7 @@ def square(x, y, a, color):
     :param color: color of the square
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(0)
     turtle.goto(x, y)
@@ -39,6 +40,7 @@ def triangle(x, y, a, color):
     :param color: color of the triangle
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(0)
     turtle.goto(x, y)
@@ -64,6 +66,7 @@ def right_triangle(x, y, a, b, color):
     :param color: color of the triangle
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(0)
     turtle.goto(x, y)
@@ -86,6 +89,7 @@ def circle(x, y, r, color):
     :param color: color of the circle
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(0)
     turtle.goto(x, y)
@@ -105,6 +109,7 @@ def rhomb(x, y, a, color):
     :param color: color of the rhomb
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(-60)
     turtle.goto(x, y)
@@ -132,6 +137,7 @@ def rectangle(x, y, a, b, color):
     :param color: color of the rectangle
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(0)
     turtle.goto(x, y)
@@ -158,6 +164,7 @@ def parallelogram(x, y, a, b, color):
     :param color: color of the parallelogram
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(0)
     turtle.goto(x, y)
@@ -185,6 +192,7 @@ def parallelogram_with_slope(x, y, a, b, color):
     :param color: color of the parallelogram
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(90)
     turtle.goto(x, y)
@@ -212,6 +220,7 @@ def parallelogram_another_slope(x, y, a, b, color):
     :param color: color of the parallelogram
     :return: None
     '''
+
     turtle.up()
     turtle.setheading(90)
     turtle.goto(x, y)
